@@ -1,0 +1,104 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ section{
+    height:60px;
+    width:100%;
+    background-color: rgb(19,25,33);
+    display: flex;
+    justify-content: center;
+ }
+ section #nav{
+       height:60px;
+       width:97%;
+       background-color: aquamarine;
+       display:flex;
+ }
+ section #nav>.icon{
+    height:60px;
+    width:130px;
+    background-color: rgb(19,25,33);
+    display: flex;
+    justify-content: center;
+ }
+ section #nav>.icon>img{
+    margin-top: 14px;
+    margin-right: 25px;
+    
+ }
+ section #nav>.adress{
+    height:60px;
+    width:190px;
+    background-color: rgb(19,25,33);
+    display: flex;
+    justify-content: flex-end;
+ }
+ section #nav>.adress>span{
+    color: azure;
+    margin-top: 25px;
+    margin-right: 5px;
+    font-size: 20px;
+ }
+ section #nav>.adress>p>b{
+    font-size: 17px;
+ }
+ section #nav>.adress>p{
+    color: azure;
+    margin-top: 10px;
+    margin-right: 7px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ section #nav>.search{
+    height:60px;
+    width:770px;
+    background-color:  rgb(19,25,33);
+    display: flex;
+    justify-content: center;
+ }
+ section #nav>.search>select{
+    height: 35px;
+    width: 10%;
+    margin-left: 50px;
+    margin-top: 13px;
+ }
+
+ section #nav>.search>input{
+  
+    /* margin-left: 10px; */
+    height:35px;
+    width:80%;
+    margin-top: 13px;
+    /* margin-left: 18px; */
+ }
+ section #nav>.search>i{
+    height: 35px;
+    width: 10%;
+
+    color: white;
+    margin-top: 13px;
+ }
+
+ .country{
+    height: 60px;
+    width:90px;
+    background-color: beige;
+ }
+ .account{
+    height: 60px;
+    width:120px;
+    background-color:burlywood ;
+ }
+ .order{
+    height: 60px;
+    width:90px;
+    background-color: black;
+ }
+ .cart{
+    height: 60px;
+    width:90px;
+    background-color: blueviolet;
+ }

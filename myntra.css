@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    box-shadow: 1px 1px 5px gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+#nav>article{
+
+    /* article should be in center .. so we will be appling disply flex to its parents component ........  */
+    height: 80px;
+    width: 96%; 
+    /* border: 2px solid black;   */
+    display: flex;
+    justify-content: center;
+
+}
+
+/* it will come one below other ... us edisplay felx to its parent tag that is article ..........  */
+#nav>article>.logo{
+    height: 80px;
+    width: 7%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav>article>.logo>img{
+    height: 35px;
+    width: 50%;
+
+    
+}
+
+
+
+
+
+
+#nav>article>.menu{
+    height: 80px;
+    width: 39%;
+    /* background-color: rgb(20, 179, 68); */
+}
+#nav>article>.menu>ol{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+}
+/* #nav>article>.menu>ol>li{
+    margin-right: 42px;
+    margin-left: 10px;
+} */
+#nav>article>.menu>ol>li>a{
+    text-decoration: none;
+    color: #282c3f ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 630;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+
+}
+#nav>article>.menu>ol>li>a>sup{
+    color: #FF3F6C;
+    font-size: 10px;
+
+
+}
+
+
+
+
+
+
+
+#nav>article>.searchbar{
+    height: 80px;
+    width: 40%;
+    /* border: 2px solid red; */
+    /* background-color: rgb(27, 5, 88); */
+    /* margin-left: 50px; */
+    margin-right: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#nav>article>.searchbar>.box{
+    
+    height: 40px;
+    width: 70%;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #F5F5F6;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: ; */
+    
+}
+#nav>article>.searchbar>.box>i{
+    margin-left: 12px;
+    margin-top: 12px;
+    font-size: 17px;
+    color: rgb(134, 129, 134);
+}
+
+#nav>article>.searchbar>.box>input{
+    height: 80%;
+    width: 85%;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color ; */
+    float: right;
+    margin-right: 5px;
+    margin-top: 4px;
+    background: transparent;
+    outline: none;
+    
+    /* text-decoration: none; */
+    
+    
+}
+
+
+
+
+
+
+
+#nav>article>.icons{
+    height: 80px;
+    width: 14%;
+    /* background-color: rgb(126, 105, 10); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    /* text-decoration: none; */
+}
+#nav>article>.icons>a{
+    text-decoration: none;
+    color: black;
+    
+}
+#nav>article>.icons>a>i{
+    font-size: 17px;    
+    margin-left: 10px;
+    /* fill: white */
+    /* font-weight: lighter; */
+}
+#nav>article>.icons>a>div{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+
+
+
+
+
+ /* ...................................... nav bar comment  ended ....  */
+
+
+
+
+ #headingimage{
+
+    height: 130px;
+    width: 100%;
+    background-color: aqua;
+
+
+ }
+
+ #headingimage>a{
+    height: 130px;
+    width: 100%;
+ }
+
+ #headingimage>a>img{
+    height: 130px;
+    width: 100%;
+ }
+
+ /* ....................................................  */
+
+ #img10row{
+    height: 250px;
+    width: 100%;
+   
+
+ }
+ #img10row>#firstrow{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ #img10row>#firstrow>img{
+    height: 125px;
+    width: 100%;
+ }
+
+
+ #img10row>#secrow{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ #img10row>#secrow>img{
+    height: 125px;
+    width: 100%;
+ }
+
+ /* ............................  */
+
+ #headingimage2{
+
+    height: 130px;
+    width: 100%;
+    background-color: aqua;
+
+
+ }
+
+ #headingimage2>a{
+    height: 130px;
+    width: 100%;
+ }
+
+ #headingimage2>a>img{
+    height: 130px;
+    width: 100%;
+ }
+
+ 
+
+
+
+
+
+
+
+
+ /* ...............................    */
+
+ #footer{
+    height: 500px;
+    width: 100%;
+    border: 2px solid red;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ #footer>article{
+    height:80% ;
+    width: 85%;
+    /* background-color: aqua; */
+    display: flex;
+ }
+ #footer>article>.col1{
+    height: 100%;
+    width: 15%;
+    /* background-color: green; */
+ }
+ #footer>article>.col1>ol{
+    list-style-type: none;
+    line-height: 25px;
+ }
+ #footer>article>.col1>ol>li>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105,107,121);
+    font-size: 13px;
+ }
+ #footer>article>.col1>.list2{
+    margin-top: 20px;
+ }
+ .a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(47,44,63);
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 10px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #footer>article>.col2{
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(235, 84, 15); */
+ }
+ #footer>article>.col2>ol{
+    list-style-type: none;
+    line-height: 25px;
+ }
+ #footer>article>.col2>ol>li>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105,107,121);
+    font-size: 13px;
+ }
+
+
+
+
+
+ #footer>article>.col3{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(188, 236, 13);
+ }
+
+
+
+ #footer>article>.col4{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(197, 18, 117);
+ }
+
+
+
+
+
+ 
