@@ -20,4 +20,8 @@ Usage        :
 To customize the navigation bar, you can edit the CSS file (style.css). You can change the colors, fonts, and other styling properties to match the design of your website.
 
 Contributing      :
-If you would like to contribute to this project, please fork the repository and submit a pull request. All contributions are welcome!
+If you would like to contribute to this project, please fork the repository and submit a pull request. All contributions are welcome!  
+
+
+Happy Coding .....
+"Regards, Kalyani"
